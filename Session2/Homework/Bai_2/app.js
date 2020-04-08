@@ -3,10 +3,12 @@
 // if (number < 0) {
 //     console.log("Invalid number");
 // }
-// for (i = number - 1; i >= 1; i--) {
-//     number = number * i;
+// else {
+//    for (i = number - 1; i >= 1; i--) {
+//    number = number * i;
+//    }
+//    console.log(number);
 // }
-// console.log(number);
 
 // Bai 2
 // let age = Number(prompt("Input your age:"));
@@ -36,7 +38,7 @@
 //     console.log("Failed to login")
 //     }
 //     else {
-//     console.log("Error"); 
+//     
 //     }
 
 //Bai 4
