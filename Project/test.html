@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- <button id="myBtn"></button> -->
+    <input type="image" id="myBtn" src="https://p7.hiclipart.com/preview/1022/32/945/shopping-cart-logo-icon-shopping-cart.jpg" alt="">
+    <div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="user-input col-lg-4">
+            <h3>Thông tin người nhận</h3>
+            <hr>
+            <input type="text" class="checkout-name" placeholder="Tên người nhận">
+            <input type="text" class="checkout-number" placeholder="Số điện thoại">
+            <input type="text" class="checkout-address" placeholder="Địa chỉ giao hàng">
+            <input type="text" class="checkout-note" placeholder="Ghi chú">
+        </div>
+        <div class="shopping-cart col-lg-8">
+            <h3>Giỏ hàng</h3>
+            <hr>
+            
+            <div class="item-name"><button id="plus">+</button><span id="number">1</span><button id="minus">-</button>Item1 <span id="item-price">30.000đ</span></div>
+            <div class="item-name">Item2<span id="item-price">30.000đ</span></div>
+            <hr>
+            <div class="price-total">
+                <div id="price">Tổng cộng</div>
+                <div id="price-number">60.000đ</div>
+            </div>
+            <div class="shipping">
+                <div id="shipping-name">Phí vận chuyển</div>
+                <div id="shipping-price">15.000đ</div>
+            </div>
+            <hr>
+            <div class="promo">
+                <input id="promo" class="button" type="text" placeholder="Nhập mã ưu đãi">
+                <button id="apply" class="button">Áp dụng</button>
+            </div>
+            
+            <div class="checkout">
+                <button id="checkout-button" class="button">Thanh toán</button>
+            </div>
+        </div>
+        <div>
+        <div class="payment">
+            <div class="payment-name">
+
+                <div>
+                    
+                    <label class="cursor">
+                        <input type="radio" name="payment" id="">
+                        <span id="cash">Tiền mặt</span>
+                    </label>
+                </div>
+                <div>
+                    
+                    <label class="cursor">
+                        <input type="radio" name="payment" id="">
+                        <span id="bank">ATM</span>
+                    </label>
+                </div>
+                <div>
+                    <label class="cursor">
+                        <input type="radio" name="payment" id="">
+                        <span id="visa">Visa</span>
+                    </label>
+                </div>
+            </div>
+            
+            <div class="payment-name">
+                <div>
+                    <label class="cursor">
+                        <input type="radio" name="payment" id="">
+                        <span id="airpay">AirPay</span>
+                    </label>
+                </div>
+                <div>
+                    <label class="cursor">
+                        <input type="radio" name="payment" id="">
+                        <span id="momo">Ví Momo</span>
+                    </label>
+                </div>
+            </div>
+            </div>
+    </div>
+    </div>
+
+
+    <script src="./app.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>  -->
+</body>
+</html>
